@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chartType">
+        <item>饼图</item>
+        <item>柱状图</item>
+    </string-array>
+
+    <string-array name="flowType">
+        <item>总流量</item>
+        <item>接收流量</item>
+        <item>发送流量</item>
+    </string-array>
+
+    <string-array name="perType">
+        <item>禁止联网</item>
+        <item>联网时进行通知</item>
+        <item>允许联网</item>
+    </string-array>
+
+    <string-array name="sort">
+        <item>总流量降序</item>
+        <item>接收流量降序</item>
+        <item>发送流量降序</item>
+        <item>总流量升序</item>
+        <item>接收流量升序</item>
+        <item>发送流量升序</item>
+    </string-array>
+
+    <string-array name="Persort">
+        <item>权限等级升序</item>
+        <item>权限等级降序</item>
+    </string-array>
+
+    <string-array name="SwitchText">
+        <item>普通字符</item>
+        <item>16进制</item>
+    </string-array>
+</resources>

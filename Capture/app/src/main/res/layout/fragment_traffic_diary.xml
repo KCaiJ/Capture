@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:id="@+id/vp"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:background="#f25959"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioButton
+            android:textColor="#FFF"
+            android:id="@+id/applicationFlow"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radiobtn"
+            android:text="@string/ApplicationFlow"
+            android:textSize="15sp"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:textColor="#FFF"
+            android:id="@+id/piechart"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radiobtn"
+            android:text="@string/piechart"
+            android:textSize="15sp"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+      <!--
+      <RadioButton
+            android:textColor="#FFF"
+            android:id="@+id/wifiNetwork"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radiobtn"
+            android:text="@string/WIFINetwork"
+            android:textSize="15sp"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:textColor="#FFF"
+            android:id="@+id/network"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radiobtn"
+            android:text="@string/Network"
+            android:textSize="15sp"
+            android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+            -->
+    </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

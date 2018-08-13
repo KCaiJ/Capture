@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chartType">
+        <item> pie chart </item>
+        <item> columnar chart </item>
+    </string-array>
+
+    <string-array name="flowType">
+        <item> total flow </item>
+        <item> receive traffic </item>
+        <item> send traffic </item>
+    </string-array>
+
+    <string-array name="perType">
+        <item> prohibition of networking </item>
+        <item>Notifications when networking</item>
+        <item> allows networking </item>
+    </string-array>
+
+    <string-array name="sort">
+        <item> total flow descending </item>
+        <item> receive flow descending </item>
+        <item> send flow descending </item>
+        <item> total flow ascending </item>
+        <item> receive flow ascending </item>
+        <item> send flow ascending </item>
+    </string-array>
+
+    <string-array name="Persort">
+        <item> privileges level ascending </item>
+        <item> permissions level descending </item>
+    </string-array>
+
+    <string-array name="SwitchText">
+        <item> common character </item>
+        <item>16 </item>
+    </string-array>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LanguageSet"
+        android:textColor="#000"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@+id/fragmeng_language_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="@string/ch"
+            android:textSize="18sp"
+            android:id="@+id/fragmeng_language_ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_marginTop="20dp"
+            android:text="@string/en"
+            android:textSize="18sp"
+            android:id="@+id/fragmeng_language_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/stoke"
+            android:id="@+id/fragmeng_language_NoBtn"
+            android:text="@string/NoExit"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@drawable/stoke"
+            android:id="@+id/fragmeng_language_YesBtn"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:text="@string/Languagechange"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

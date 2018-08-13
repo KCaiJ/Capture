@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginLeft="20px"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="#fff"
+            android:textColor="#0c93d2"
+            android:id="@+id/traffic_diart_listview_appName"
+            android:text=""
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <LinearLayout
+            android:layout_marginRight="20px"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:id="@+id/traffic_list_img"
+                android:src="@mipmap/ic_launcher"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="@string/RxFlow"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/traffic_diart_listview_RxFlow"
+                            android:gravity="right|center_vertical"
+                            android:layout_weight="1"
+                            android:text="0KB"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:layout_weight="1"
+                        android:id="@+id/traffic_diart_listview_RxProgress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="@string/TxFlow"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/traffic_diart_listview_TxFlow"
+                            android:gravity="right|center_vertical"
+                            android:layout_weight="1"
+                            android:text="0KB"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:layout_weight="1"
+                        android:id="@+id/traffic_diart_listview_TxProgress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:text="@string/TotalFlow"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/traffic_diart_listview_TotalFlow"
+                            android:gravity="right|center_vertical"
+                            android:layout_weight="1"
+                            android:text="0KB"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:layout_weight="1"
+                        android:id="@+id/traffic_diart_listview_TotalProgress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
